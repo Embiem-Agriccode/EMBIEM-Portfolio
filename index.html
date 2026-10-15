@@ -207,12 +207,12 @@ textarea.ct-f{font-size:clamp(24px,3.6vw,48px);line-height:1.15;letter-spacing:-
 .st-ph{position:absolute;left:24px;top:50%;translate:0 -50%;z-index:6;max-width:min(44vw,620px);visibility:hidden;pointer-events:none}
 .st-ph.big{top:auto;bottom:11vh;translate:none;max-width:92vw;mix-blend-mode:difference}
 .st-h{font:700 clamp(30px,4.6vw,72px)/.98 'Bricolage Grotesque',system-ui,sans-serif;letter-spacing:-.032em}
-.st-ph.big .st-h{font-size:clamp(44px,9.4vw,150px);letter-spacing:-.055em}
+.st-ph.big .st-h{font-size:clamp(34px,6vw,96px);letter-spacing:-.05em}
 .st-h .ln{display:block;overflow:hidden;padding-bottom:.14em;margin-bottom:-.14em}
 .st-h .w{display:block;will-change:transform;transform:translateY(112%)}
 .st-k{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:18px}
 .st-btn{margin-top:28px;pointer-events:auto}
-@media(max-width:820px){.h-fold{padding-top:36px}.hero-t{font-size:7.4vw;height:3.5em}.st-ph{top:11vh;translate:none;max-width:88vw}.st-ph.big{top:auto;bottom:9vh}.st-h{font-size:10vw}.st-ph.big .st-h{font-size:9.4vw}.hero2 .h-aside{padding-top:48px}}
+@media(max-width:820px){.h-fold{padding-top:36px}.hero-t{font-size:7.4vw;height:3.5em}.st-ph{top:11vh;translate:none;max-width:88vw}.st-ph.big{top:auto;bottom:9vh}.st-h{font-size:10vw}.st-ph.big .st-h{font-size:9.4vw;line-height:1}.hero2 .h-aside{padding-top:48px}}
 @media(max-width:820px){.hud.bot{bottom:64px}.reel.st-img::before{background:radial-gradient(120% 120% at 50% 50%,transparent 45%,rgba(0,0,0,.55)),linear-gradient(180deg,rgba(0,0,0,.55),transparent 18%,transparent 34%,rgba(5,9,22,.9) 62%,rgba(5,9,22,.97) 92%)}}
 /* marquee */
 .mq{overflow:hidden;border-block:1px solid var(--line);padding:18px 0;background:var(--bg2);position:relative;z-index:2}
@@ -905,7 +905,7 @@ const LAUNCH_URL = &#x27;&#x27;;    // e.g. &#x27;#architecture&#x27;. Empty = s
       <div class="hud bot mono"><span id="rcap">01 — FUD Hub</span><span id="rcnt">01 / 04</span></div>
       <div class="rbar"><i id="rbar"></i></div>
     </div>
-    <div class="st-ph big" data-a="0" data-b=".2"><h2 class="st-h"><span class="ln"><span class="w">I engineer</span></span><span class="ln"><span class="w">high-performance</span></span><span class="ln"><span class="w">web systems</span></span><span class="ln"><span class="w">&amp; modern UI.</span></span></h2></div>
+    <div class="st-ph big" data-a="0" data-b=".2"><h2 class="st-h"><span class="ln"><span class="w">I engineer <span style="white-space:nowrap">high-performance</span></span></span><span class="ln"><span class="w">web systems &amp; modern UI.</span></span></h2></div>
     <div class="st-ph" data-a=".22" data-b=".5"><p class="st-k mono">( 01 ) Campus &amp; field</p><h2 class="st-h"><span class="ln"><span class="w">Enterprise</span></span><span class="ln"><span class="w">AgriTech &amp;</span></span><span class="ln"><span class="w">scalable digital</span></span><span class="ln"><span class="w">infrastructure.</span></span></h2></div>
     <div class="st-ph" data-a=".5" data-b=".76"><p class="st-k mono">( 02 ) Data</p><h2 class="st-h"><span class="ln"><span class="w">Data-driven</span></span><span class="ln"><span class="w">architecture &amp;</span></span><span class="ln"><span class="w">precision</span></span><span class="ln"><span class="w">analytics.</span></span></h2></div>
     <div class="st-ph" data-a=".76" data-b="1.01"><p class="st-k mono">( 03 ) Next</p><h2 class="st-h"><span class="ln"><span class="w">Let's build</span></span><span class="ln"><span class="w">something real.</span></span></h2><a class="btn gold st-btn" href="#work">See my work →</a></div>
